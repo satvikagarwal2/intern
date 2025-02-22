@@ -2,7 +2,7 @@ import openai
 from openai.error import OpenAIError
 
 # Replace with your actual OpenAI API key
-openai.api_key = "sk-WXqwUE6TKzyW2yRzrMufXY_3PL1wcayVikhjO6rYGpT3BlbkFJKXIdsr0BbDttIOTWo0u6spEw_PzBnT9mdAPLQaK-QA"
+openai.api_key = ""
 
 def rephrase_message(buyer_name, seller_name, store_name, product_title, buyer_question, seller_response):
     try:
